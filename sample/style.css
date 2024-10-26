@@ -1,0 +1,74 @@
+/* jis div ko padding dain wo apnai andar space create kar dai ga 
+jis div ko flex dai wo apnai andar walai divs ko sahi karai ga
+margin sai us div ko apnai bahir walai div sai thora door hona hota hai
+margin and padding in percent will be the percent of their parents width */
+html, body {
+    /* take up full space of browser window */
+    height: 100%; 
+
+.signin{
+    width: 100%;
+    height: 100%;
+    /* it set the things which is inside it */
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 25%;
+    /* 80% of div in which it is */
+    height: 80%; 
+    border: 1px solid #2a947b;
+    background-color: #2a947b;
+    border-radius: 10px;
+    padding-left: 2%;
+}
+
+h1{
+    padding-left: 18%;
+}
+input{
+    outline: none;
+    border: none;
+    background: transparent;
+}
+.nameDiv{
+    height: 10%;
+    width: 87%;
+    border:1px solid white;
+    background-color: #fff;
+    border-radius: 5px;
+    padding-left: 5%;
+    display: flex; 
+    align-items: center;
+    
+}
+.Email{
+    margin-top: 5%;
+}
+.Login{
+    margin-top: 13%;
+    height: 10%;
+    width: 40%;
+    border:1px solid white;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    margin-left: 25%;
+}
+
+button{
+    outline: none;
+    border: none;
+    background: transparent;
+    color: gray;
+}
+h1{
+    color: #fff;
+}
+}
+p{
+    color: white;
+}

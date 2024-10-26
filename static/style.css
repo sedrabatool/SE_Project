@@ -1,0 +1,79 @@
+.main_container {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    
+}
+.header{
+    display: flex;
+    gap: 73%;
+    align-items: center; 
+
+}
+.header-1{
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+}
+.header-2{
+    display: flex;
+    gap: 10px;
+}
+.button-signin,.button-signup{
+    background-color: rgba(128, 128, 128, 0.285);
+    border: 1px solid rgba(128, 128, 128, 0.285);
+    border-radius: 20px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    font-weight: 150;
+}
+button{
+    outline: none;
+    background-color: transparent;
+    border: none;
+
+}
+.image {
+    display: flex;
+    justify-content: center;
+}
+
+.image img {
+    width: 400px; /* Resize image o fit better */
+    height: 300px;
+    object-fit: cover;  /* Ensure image aspect ratio is maintained */
+}
+
+.input-div {
+    width: 60vw;
+    height: 60px;
+    background-color: rgba(128, 128, 128, 0.082);
+    border-radius: 30px;
+    border: 1px solid rgba(128, 128, 128, 0.082);
+    display: flex;
+    gap: 65%;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+i {
+    padding-left: 15px;
+    color: gray;
+}
+
+.icon_enter {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
